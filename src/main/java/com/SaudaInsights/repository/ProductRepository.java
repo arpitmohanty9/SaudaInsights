@@ -1,0 +1,8 @@
+package com.SaudaInsights.repository;
+
+import com.SaudaInsights.model.Product;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProductRepository extends CrudRepository<Product, Long> { }
